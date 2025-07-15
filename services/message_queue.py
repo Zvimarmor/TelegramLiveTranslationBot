@@ -1,4 +1,6 @@
 # services/message_queue.py
+#TODO:connect to the project
+
 
 from queue import Queue
 import threading

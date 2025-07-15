@@ -1,4 +1,5 @@
 python-telegram-bot==20.7
-python-dotenv
-nest_asyncio
+apscheduler==3.10.4
 pytz
+nest_asyncio
+deep-translator==1.11.4
