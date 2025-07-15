@@ -3,3 +3,4 @@ apscheduler==3.10.4
 pytz
 nest_asyncio
 deep-translator==1.11.4
+dotenv
