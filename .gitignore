@@ -4,3 +4,4 @@ venv/
 
 # Ignore dotenv files
 .env
+LiveTranslationBotKey.pem
