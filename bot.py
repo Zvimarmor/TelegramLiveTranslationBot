@@ -80,7 +80,7 @@ async def handle_group_message(update: Update, context: ContextTypes.DEFAULT_TYP
                 return
             lang_code = validate_language(text)
             set_user_language(group_id, user_id, user_name, lang_code)
-            await msg.reply_text(f"Language preference updated to {text.capitalize()} ({lang_code})")
+            await msg.reply_text(f"Language preference for {user_name} set to '{text}'.\nYou can change it anytime by sending 'change language: <language>'.")
             return
         except InvalidLanguageException:
             await msg.reply_text(f"Invalid language '{text}'. Please send a valid language name.\nIf you need help, type 'bot help.")
